@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hakkimizda"
+    android:background="@drawable/background0">
+
+
+    <TextView
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Merhabalar, ben Oğuzhan Aldemir. Bilgisayar Mühendisliği 3. sınıf öğrencisiyim."
+        android:textColor="#050B0A"
+        android:textSize="26sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Snake uygulamasını beğendiyseniz veya farklı projeler için iletişim kurmak isterseniz bilgilerimi bulabilirsiniz. :)"
+        android:textColor="#050B0A"
+        android:textSize="26sp">
+
+    </TextView>
+
+
+    <RelativeLayout
+        android:id="@+id/ust"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="232dp"
+        android:background="#00E1DAA0">
+
+
+        <ImageButton
+            android:id="@+id/btn_github"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="327dp"
+            android:layout_marginRight="327dp"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/github" />
+
+        <TextView
+            android:id="@+id/songs"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="19dp"
+            android:text="https://github.com/ogzhnaldemir"
+            android:textColor="#060307"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ust"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="152dp"
+        android:background="#00A8D1AF">
+
+
+        <ImageButton
+            android:id="@+id/linkedin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="327dp"
+            android:layout_marginRight="327dp"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/linkedin" />
+
+        <TextView
+            android:id="@+id/songs"
+            android:layout_width="165dp"
+            android:layout_marginStart="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="19dp"
+            android:text="ogzhnaldemir"
+            android:textColor="#060307"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ust"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="67dp"
+        android:background="#00A8D1AF">
+
+
+        <ImageButton
+            android:id="@+id/mail"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="327dp"
+            android:layout_marginRight="327dp"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/mail" />
+
+        <TextView
+            android:id="@+id/songs"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="19dp"
+            android:text="ogzhnaldemir3747@gmail.com"
+            android:textColor="#060307"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="102dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/person1" />
+
+
+</RelativeLayout>
