@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#66CCFE"
     tools:context=".splash_screen">
 
-<com.felipecsl.gifimageview.library.GifImageView
-    android:id="@+id/gifImageView"
-    android:scaleType="fitCenter"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter">
 
-</com.felipecsl.gifimageview.library.GifImageView>
+    </com.felipecsl.gifimageview.library.GifImageView>
 </RelativeLayout>

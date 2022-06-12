@@ -23,7 +23,7 @@ private GifImageView gifImageView;
 
 
             try {
-                InputStream inputStream = getAssets().open("gifntextgif.gif");
+                InputStream inputStream = getAssets().open("gifntext-gif1.gif");
                 byte[] bytes = IOUtils.toByteArray(inputStream);
                 gifImageView.setBytes(bytes);
                 gifImageView.startAnimation();

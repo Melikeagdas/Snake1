@@ -9,34 +9,6 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="58dp"
-        android:layout_height="56dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:background="#00FFFFFF"
-        android:scaleType="fitStart"
-        app:srcCompat="@drawable/soundon1" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="58dp"
-        android:layout_height="56dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="8dp"
-        android:background="#00FFFFFF"
-        android:scaleType="fitStart"
-
-        app:srcCompat="@drawable/soundof1" />
-
-
-    <ImageButton
         android:id="@+id/play"
         android:layout_width="272dp"
         android:layout_height="80dp"
