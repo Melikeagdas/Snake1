@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         txt_dialog_best_score.setText(bestScore + "");
         dialogScore.setCanceledOnTouchOutside(false);
         RelativeLayout rl_start = dialogScore.findViewById(R.id.rl_start);
+        RelativeLayout rl_anamenu = dialogScore.findViewById(R.id.rl_anamenu);
         rl_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,5 +59,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         dialogScore.show();
+
+        rl_anamenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,ilk_giris.class);
+                startActivity(intent);
+            }
+        });
     }
+
+
+
 }

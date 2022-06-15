@@ -3,6 +3,7 @@ package com.example.snake;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -14,6 +15,7 @@ import java.io.InputStream;
 
 public class splash_screen extends AppCompatActivity {
 private GifImageView gifImageView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
